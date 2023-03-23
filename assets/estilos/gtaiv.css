@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Fuente_letra;
+    src: url(/assets/fuentes/pricedown\ bl.ttf);
+}
+@font-face{
+    font-family: fuente;
+    src: url(/assets/fuentes/AGENCYB.TTF);
+}
+body{
+    background-color: black;
+    padding: 0%;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0%;
+    font-weight: bold;
+}
+nav a{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.caja{
+    display: flex;
+}
+.parrafo{
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-family: fuente;
+}
+a{
+    color:antiquewhite;
+    text-decoration: none;
+    font-family: Fuente_letra;
+    font-family: Fuente_letra;
+}
+a:hover{
+    color: #ffba00;
+}
+
+.img2{
+    text-align: end;
+    padding-top: 15%;
+}
+@media screen and (max-width: 480px) {
+    .caja{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .parrafo{
+        margin: 0px;
+    }
+    .img2{
+        padding-top: 10%;
+    }
+    #img2{
+        width: 50%;
+        margin-top: 0%;
+    }
+}

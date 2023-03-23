@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Fuente_letra;
+    src: url(/assets/fuentes/pricedown\ bl.ttf);
+}
+@font-face{
+    font-family: fuente;
+    src: url(/assets/fuentes/AGENCYB.TTF);
+}
+body{
+    background: linear-gradient(rgba(5, 7, 12, 100), rgba(5, 7, 12, 0.75)), url(/assets/imagenes/acercade/rockstar.jpg);
+    text-align: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+.texto{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-family: fuente;
+    text-align: center;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0%;
+    font-weight: bold;
+}
+a{
+    color:antiquewhite;
+    text-decoration: none;
+    font-family: Fuente_letra;
+    font-family: Fuente_letra;
+}
+.parrafo{
+    font-family: fuente;
+    margin-top: 30px;
+}

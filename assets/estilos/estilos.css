@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Fuente_letra;
+    src: url(/assets/fuentes/pricedown\ bl.ttf);
+}
+@font-face{
+    font-family: fuente;
+    src: url(/assets/fuentes/AGENCYB.TTF);
+}
+
+body{
+    background-color: rgba(0, 0, 0);
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+nav h1{
+    color: antiquewhite;
+    font-size: 45px;
+    margin: 0px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color:antiquewhite;
+    text-decoration: none;
+    font-family: Fuente_letra;
+}
+a:hover{
+    color: #ffba00;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja1{
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    background-color: #ffba00;
+    width: 250px;
+    height: 250px;
+}
+.caja2{
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    background-color: #ffba00;
+    width: 250px;
+    height: 250px;
+}
+.caja3{
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    background-color: #ffba00;
+    width: 250px;
+    height: 250px;
+}
+.vermas{
+    text-align: center;
+    border-radius: 2px;
+    background-color: rgb(93, 108, 108);
+    width: 250px;
+    height: 30px;
+}
+
+
+.l{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.descripcion{
+    text-align: center;
+    font-size: 11px;
+    margin: 0px opx;
+    color:white;
+    margin-top: 5%;
+}
+p{
+    font-family: fuente;
+}
+@media screen and (max-width: 480px) {
+    ul li{
+        display: inline-block;
+        padding: 0px 10px;
+    }
+    .contenedor{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .contenedor1{
+        margin-bottom: 20px;
+    }
+    .contenedor2{
+        margin-bottom: 20px;
+    }
+
+}
